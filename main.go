@@ -46,7 +46,7 @@ func handlerCreateMessage(c *gin.Context) {
 
 func main() {
 	port := "8000"
-	// gin.DisableConsoleColor()
+	gin.DisableConsoleColor()
 	r := gin.Default()
 	r.GET("/", handler)
 	r.GET("/message", handlerGetMessages)
