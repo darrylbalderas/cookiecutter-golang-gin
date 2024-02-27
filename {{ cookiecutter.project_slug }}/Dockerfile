@@ -1,4 +1,4 @@
-FROM golang:1.21 AS builder
+FROM golang:{{ cookiecutter.golang_version }} AS builder
 WORKDIR /app
 COPY go.mod ./
 RUN go mod download

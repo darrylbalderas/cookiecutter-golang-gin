@@ -1,6 +1,6 @@
-module github.com/darrylbalderas/cookiecutter-golang-gin
+module {{ cookiecutter.golang_module }}
 
-go 1.21
+go {{ cookiecutter.golang_version }}
 
 require (
 	github.com/bytedance/sonic v1.11.1 // indirect
