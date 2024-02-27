@@ -1,0 +1,9 @@
+{
+    "project_name": "chicano",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_port": "8000",
+    "github_user": "github.com/darrylbalderas",
+    "golang_module": "{{ cookiecutter.github_user }}/{{ cookiecutter.project_slug }}",
+    "version": "0.0.1",
+    "golang_version": "1.21"
+}
